@@ -1,0 +1,19 @@
+<form action="" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" [(ngModel)]="username">
+    </div>
+    <div class="form-control">
+        <label for="number">Phone:</label>
+        <input type="text" name="number" id="number" [(ngModel)]="number">
+    </div>
+    <div class="form-control">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" [(ngModel)]="password">
+    </div>
+    <div class="form-control">
+        <label for="passwordConfirm">Confirm Password:</label>
+        <input type="password" name="passwordConfirm" id="passwordConfirm" [(ngModel)]="passwordConfirm">
+    </div>
+    <input type="submit" value="Register">
+</form>
