@@ -12,8 +12,8 @@ import { RouterModule } from '@angular/router';
 
 const appRoutes = [
   {path: '', component: AppComponent},
-  {path: '/register', component: RegisterFormComponent},
-  {path: '/login', component: LoginFormComponent}
+  {path: 'register', component: RegisterFormComponent},
+  {path: 'login', component: LoginFormComponent}
 ]
 
 @NgModule({
