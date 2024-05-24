@@ -1,0 +1,8 @@
+header>ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+header>ul>li{
+    margin-bottom: 2px;
+}

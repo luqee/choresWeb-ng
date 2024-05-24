@@ -8,6 +8,16 @@
         <input type="text" name="number" id="number" [(ngModel)]="number">
     </div>
     <div class="form-control">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" [(ngModel)]="email">
+    </div>
+    <div class="form-control">
+        <label for="occupationId">Occupation:</label>
+        <select name="occupationId" [(ngModel)]="occupationId">
+            <option *ngFor="let occupation of occupations" value='{{occupation.id}}'>{{occupation.name}}</option>
+        </select>
+    </div>
+    <div class="form-control">
         <label for="password">Password:</label>
         <input type="password" name="password" id="password" [(ngModel)]="password">
     </div>

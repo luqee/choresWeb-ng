@@ -1,4 +1,4 @@
 export interface Occupation{
-    id: number
+    id?: number
     name: string
 }
